@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Untame Yourself Support</title>
+<style>
+  :root { --bg: #ffffff; --fg: #1c1c1e; --muted: #6e6e73; --rule: #e5e5ea; }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg: #000000; --fg: #f2f2f7; --muted: #98989f; --rule: #2c2c2e; }
+  }
+  body { margin: 0; background: var(--bg); color: var(--fg);
+         font: 17px/1.55 -apple-system, BlinkMacSystemFont, "Helvetica Neue", sans-serif; }
+  main { max-width: 680px; margin: 0 auto; padding: 48px 16px 64px; }
+  h1 { font-size: 30px; margin: 0 0 4px; }
+  h2 { font-size: 20px; margin: 36px 0 8px; padding-top: 24px; border-top: 1px solid var(--rule); }
+  h3 { font-size: 17px; margin: 24px 0 4px; }
+  .summary { font-size: 19px; }
+  .muted { color: var(--muted); }
+  a { color: inherit; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Untame Yourself Support</h1>
+
+  <p class="summary">Need help? Email <a href="mailto:androxpm@gmail.com">androxpm@gmail.com</a> and you'll get a reply from the developer.</p>
+  <p class="muted">Include your iOS version and what you were trying to do. Untame never sends anything off your device, so I can't see your groups or settings unless you describe them.</p>
+
+  <h2>Common questions</h2>
+
+  <h3>How do I set a limit?</h3>
+  <p>Tap <strong>New Group</strong>, pick the apps or categories you want to limit, set a daily budget, and choose how long to lock it. You can also add a downtime schedule that blocks the group completely during set hours.</p>
+
+  <h3>What happens when I use up my budget?</h3>
+  <p>Apple's Screen Time blocks the group's apps for the rest of the day. The budget resets the next day.</p>
+
+  <h3>Why can't I unlock a group early?</h3>
+  <p>That's the point of the lock. You set it when you're thinking clearly so it still holds when you're tempted. The lock ends on the date shown in the group.</p>
+
+  <h3>What can I change while a group is locked?</h3>
+  <p>Only changes that make it stricter: a smaller budget, more apps, a longer downtime, or a later end date. Raising the budget, removing apps, or shortening the lock is refused until the lock ends.</p>
+
+  <h3>I reinstalled Untame and a lock came back. Why?</h3>
+  <p>Locks are stored in the iPhone's Keychain, which iOS keeps when an app is deleted. Deleting the app removes your groups but not an active lock. To reconnect it, tap <strong>Reconnect it</strong> and pick the same apps as before. Apple doesn't tell Untame which apps you picked, so it can't fill them in for you.</p>
+
+  <h3>I'm not getting the halfway notification.</h3>
+  <p>Check that notifications are allowed for Untame Yourself in Settings &rarr; Notifications.</p>
+
+  <h3>Can I turn Untame off?</h3>
+  <p>Yes. You can revoke Untame's Screen Time access in Settings at any time, and its limits stop applying. Untame can't prevent that. It's your phone.</p>
+
+  <h3>Can Untame see which apps I use?</h3>
+  <p>No. Apple gives Untame opaque tokens for the apps you pick, not their names or your usage history. See the <a href="./">privacy policy</a>.</p>
+
+  <h2>Privacy</h2>
+  <p>Untame Yourself collects no data. Read the full <a href="./">privacy policy</a>.</p>
+</main>
+</body>
+</html>
